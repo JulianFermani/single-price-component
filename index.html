@@ -15,33 +15,42 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
+ <div class="container d-flex flex-column ">
   <div class="container shadow">
     <div class="row">
         <div class="col col-md-12 rounded-top">
-          <p class="fs-3">Join our community</p>
-          <p class="fs-4">30-day, hassle-free money back guarantee</p>
-          <p class="fs-6">Gain access to our full library of tutorials along with expert code reviews.</p>
-          <p class="fs-6">Perfect for any developers who are serious about honing their skills.</p>
+          <div class="container">
+            <p class="fs-3 mt-4 text-info">Join our community</p>
+            <p class="fs-5 mb-1 mt-3 text-warning">30-day, hassle-free money back guarantee</p>
+            <p class="fs-6 mb-0 text-secondary">Gain access to our full library of tutorials along with expert code reviews.</p>
+            <p class="fs-6 mb-4 text-secondary">Perfect for any developers who are serious about honing their skills.</p>
+          </div>
         </div>
     </div>
     <div class="row d-flex ">
-      <div class="col-12 col-sm-12 col-md-6 fondo-izquierda rounded-bottom">
-        <p class="fs-4">Monthly Subscription</p>
-        <p><span class="fs-2">&dollar;29</span> per month</p>
-        <p>Full access for less than &dollar;1 a day</p>
-        <p class="btn btn-success">Sign Up</p>
+      <div class="col-12 col-sm-12 col-md-6 fondo-izquierda">
+        <div class="container text-white">
+          <p class="fs-4 mt-4">Monthly Subscription</p>
+          <p class="mb-0"><span class="fs-2">&dollar;29</span><span class="opacidad ms-2">per month</span></p>
+          <p class="">Full access for less than &dollar;1 a day</p>
+          <div class="d-grid gap-2 col-11">
+            <button type="button" class="btn warning text-white pt-2 pb-2">Sign Up</button>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-6 fondo-derecha rounded-bottom">
-        <p class="fs-4">Why Us</p>
-        <ul>
-          <li>Tutorials by industry experts</li>
-          <li>Peer &amp; expert code review</li>
-          <li>Coding exercises</li>
-          <li>Access to our GitHub repos</li>
-          <li>Community forum</li>
-          <li>Flashcard decks</li>
-          <li>New videos every week</li>
-        </ul>
+      <div class="col-12 col-sm-12 col-md-6 fondo-derecha">
+        <div class="container text-white">
+          <p class="fs-4 mt-4">Why Us</p>
+          <ul class="list-unstyled">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -51,5 +60,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+ </div>
 </body>
 </html>

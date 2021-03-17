@@ -15,8 +15,22 @@ body{
 
 .fondo-izquierda{
   background-color: #2bb3b1;
+  border-bottom-left-radius: 7px;
 }
 
 .fondo-derecha{
   background-color: #4abebd;
+  border-bottom-right-radius: 7px;
+}
+
+.opacidad{
+  opacity: .5;
+}
+
+.warning{
+  background-color: #bee032 !important;
+}
+
+.text-warning{
+color: #bee032 !important;
 }
