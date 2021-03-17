@@ -2,6 +2,7 @@
 
 body{
   font-family: 'Karla', sans-serif;
+  background-color: #e6eff6;
 }
 
 .attribution {
@@ -23,8 +24,12 @@ body{
   border-bottom-right-radius: 7px;
 }
 
-.opacidad{
+.opacidad-50{
   opacity: .5;
+}
+
+.opacidad-70{
+  opacity: .7;
 }
 
 .warning{
@@ -32,5 +37,20 @@ body{
 }
 
 .text-warning{
-color: #bee032 !important;
+  color: #bee032 !important;
+}
+
+.text-info{
+  color: #41a9a8 !important;
+}
+
+@media (max-width: 768px){
+    .fondo-izquierda{
+      border-bottom-left-radius: 0px;
+    }
+    .fondo-derecha{
+      border-bottom-left-radius: 7px;
+    }
+
+
 }
